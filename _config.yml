@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/profile.png"
   name             : "孙成"
   bio              : "电气工程硕士，研究方向为电力电子变换器稳定性"
   employer         : "湘潭大学"
