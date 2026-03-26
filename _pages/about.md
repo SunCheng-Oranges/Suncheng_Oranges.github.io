@@ -6,6 +6,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
+<span class='anchor' id='about-me'></span>
+
 本人现就读于湘潭大学自动化与电子信息学院攻读电气工程硕士学位，师从陈智勇副教授。本科毕业于湘潭大学自动化专业，在校期间多次获得学业奖学金。研究方向聚焦于电力电子数字控制领域，主要包括跟网型（GFL）逆变器无源性增强设计、构网型逆变器无源性增强设计、异构跟网系统无源性设计及比例多谐振控制器设计等。
 
 # 🔥 近期新闻|News
